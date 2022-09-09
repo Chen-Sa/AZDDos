@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install git
 git clone https://github.com/Chen-Sa/MHDDoS.git
 curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
