@@ -24,3 +24,5 @@ sudo pip3 install shodan
 sudo pip3 install python-whois
 sudo pip3 install paramiko
 sudo pip3 install netfilterqueue
+cd hawk/
+sudo python3 hawk.py
