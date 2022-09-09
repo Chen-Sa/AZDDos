@@ -1,5 +1,6 @@
 #!/bin/bash
 git clone https://github.com/Chen-Sa/hawk.git
+sudo apt-get update
 sudo apt-get install nmap
 curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
