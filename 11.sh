@@ -1,7 +1,8 @@
 #!/bin/bash
 git clone https://github.com/Chen-Sa/hawk.git
+curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
 sudo apt-get install nmap
-sudo apt-get install python3-pip
 sudo pip3 install readline
 sudo pip3 install binascii
 sudo pip3 install struct
