@@ -3,6 +3,7 @@ git clone https://github.com/Chen-Sa/MHDDoS.git
 curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
 cd MHDDoS/
+sudo python3 -m pip install cloudscraper==1.2.60
 sudo python3 -m pip install cfscrape<=2.1.1
 sudo python3 -m pip install certifi<=2021.10.8
 sudo python3 -m pip install dnspython>=2.2.0
