@@ -13,4 +13,4 @@ sudo python3 -m pip install psutil>=5.9.0
 sudo python3 -m pip install icmplib>=2.1.1
 sudo python3 -m pip install git+https://github.com/Chen-Sa/PyRoxy.git
 sudo python3 -m pip install yarl~=1.7.2
-sudo python3 start.py udp 2.58.64.186:80 1000 3600
+sudo python3 start.py udp 45.150.165.158:80 1000 3600
